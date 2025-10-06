@@ -1,4 +1,4 @@
-   body {
+  body {
        background: rgb(39, 187, 245);
        color: rgb(45, 45, 45);
        padding: 10px;
@@ -61,5 +61,3 @@
    h2, h3 {
        margin: 0px;
    }
-
-
