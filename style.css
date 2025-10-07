@@ -11,8 +11,8 @@
 
    /* navigation menu */
    nav {
-       background: rgb(245, 63, 39);
-      margin: 0 auto;
+       background:  rgb(243, 75, 132)
+      margin 0 auto;
      
        display: flex;
        padding: 10px;
@@ -52,12 +52,30 @@
        flex: 1;
        padding: 15px;
    }
+/* portfolio styles */
+         .content h1 {
+             color: black;
+         }
 
-   /* portfolio styles */
-   #interests {
-       border: 4px silver ridge;
-       padding: 8px;
-   }
-   h2, h3 {
-       margin: 0px;
-   }
+         #portfolio {
+             list-style-type: none;
+             padding-left: 0;
+         }
+
+         #portfolio li {
+             background: #fff;
+             padding: 10px;
+             border-radius: 10px;
+             margin-bottom: 10px;
+         }
+
+         #portfolio li:hover {
+             background: #eee;
+         }
+
+         #portfolio a {
+             text-decoration: none;
+             color: #454545;
+         }
+
+  
