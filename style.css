@@ -1,4 +1,4 @@
-  body {
+   body {
        background: rgb(39, 187, 245);
        color: rgb(45, 45, 45);
        padding: 10px;
@@ -11,8 +11,8 @@
 
    /* navigation menu */
    nav {
-       background:  rgb(243, 75, 132)
-      margin 0 auto;
+       background: rgb(245, 63, 39);
+      margin: 0 auto;
      
        display: flex;
        padding: 10px;
@@ -52,6 +52,15 @@
        flex: 1;
        padding: 15px;
    }
+
+   /* portfolio styles */
+   #interests {
+       border: 4px silver ridge;
+       padding: 8px;
+   }
+   h2, h3 {
+       margin: 0px;
+   }
 /* portfolio styles */
          .content h1 {
              color: black;
@@ -77,5 +86,3 @@
              text-decoration: none;
              color: #454545;
          }
-
-  
