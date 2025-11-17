@@ -84,10 +84,27 @@
         
        positionX = positionX + speed; 
        moveBoxTo(positionX)
+      if(positionX > boardWidth){
+         speed = speed * -1
+
+        }
+
+
+                      
+
+                     
+      
+
+
+
+                      
+
+        }
+
 
        
           
-        }
+        
 
         /**
          * This Function will be called each time the box is clicked.
@@ -96,7 +113,7 @@
          * - increase the speed
          * - move the box to the left side of the screen.
          */
-        function handleBoxClick() {
+         function handleBoxClick() {
 
         positionX = 0;
         changeBoxText(points);
